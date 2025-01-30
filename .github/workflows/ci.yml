@@ -22,5 +22,5 @@ jobs:
               shell: pixi run bash {0}
               working-directory: conda
               env:
-                CXX : ${{ matrix.CXX }}
-              pixi run test
+                  CXX: ${{ matrix.CXX }}
+              run: pixi run test
