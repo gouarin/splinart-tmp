@@ -20,7 +20,6 @@ jobs:
                   cache: true
             - name: run test
               shell: pixi run bash {0}
-              working-directory: conda
               env:
                   CXX: ${{ matrix.CXX }}
               run: pixi run test
