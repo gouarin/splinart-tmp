@@ -18,7 +18,7 @@ test = { cmd = ".build/tests/test_splinart", depends-on = ["build_test"] }
 doc = { cmd = "cd doc; make html" }
 
 [dependencies]
-cxx-compiler = "1.6.0.*"
+# cxx-compiler = "1.6.0.*"
 cmake = "3.27.9.*"
 opencv = "4.8.1.*"
 cli11 = "2.3.2.*"
